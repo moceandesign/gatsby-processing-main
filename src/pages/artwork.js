@@ -78,13 +78,18 @@ function goban(p5) {
   };
 
   p5.draw = function () {
-    p5.background(param.bg, param.bg_alpha);
+  p5.background ("red");
+
+
+  /* p5.background(param.bg, param.bg_alpha);
     // show_goban(goban);
     // show_stones(stones);
     apparence(param);
     let_s_dance(stones, param);
     show_gui(info_is);
-  };
+  }; 
+  */
+  
 
   p5.mousePressed = function () {
     setting(param, goban, stones);
